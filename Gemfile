@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.2.3"
+ruby "2.6.5"
 
 gem 'actionview'
 gem 'activesupport'
@@ -12,6 +12,7 @@ gem 'newrelic_rpm'
 gem 'pg'
 gem 'rack-ssl'
 gem 'rack-cors'
+gem 'rake'
 gem 'sequel'
 gem 'sinatra'
-gem 'unicorn'
+gem 'puma'
